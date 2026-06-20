@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="glass-card">
+
+            <h1>💰 EMI Calculator</h1>
+            <p class="subtitle">
+                Calculate your loan EMI instantly
+            </p>
+
+            <div class="input-group">
+                <label>Loan Amount (₹)</label>
+                <input type="number" id="loanAmount" placeholder="Enter Loan Amount">
+            </div>
+
+            <div class="input-group">
+                <label>Annual Interest Rate (%)</label>
+                <input type="number" id="interestRate" placeholder="Enter Interest Rate">
+            </div>
+
+            <div class="input-group">
+                <label>Loan Tenure (Years)</label>
+                <input type="number" id="loanTenure" placeholder="Enter Loan Tenure">
+            </div>
+
+            <button id="calculateBtn">
+                Calculate EMI
+            </button>
+
+            <p id="error" class="error"></p>
+
+            <div id="result" class="result-card">
+
+                <div class="result-item">
+                    <h3>Monthly EMI</h3>
+                    <p id="emi">₹0</p>
+                </div>
+
+                <div class="result-item">
+                    <h3>Total Interest</h3>
+                    <p id="interest">₹0</p>
+                </div>
+
+                <div class="result-item">
+                    <h3>Total Payment</h3>
+                    <p id="total">₹0</p>
+                </div>
+
+            </div>
+
+            <a href="https://digitalheroes.in"
+               target="_blank"
+               class="digital-btn">
+                Built for Digital Heroes
+            </a>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p><strong>Name:</strong> Shradhay</p>
+        <p><strong>Email:</strong> sherryjoshi9400@gmail.com </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
